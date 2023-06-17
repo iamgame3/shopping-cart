@@ -52,4 +52,25 @@ describe("Store component", () => {
 
     expect(screen.getByTestId("item-count").textContent).toEqual("0");
   });
+
+  it("doesn't replace old cart item count", async () => {
+    render(<RouteSwitch />);
+    const user = userEvent.setup();
+
+    await act(async () => {
+      await user.click(screen.getByText("Store"));
+    });
+    await user.click(screen.getByTestId("test-input"));
+    await user.keyboard("1");
+    await act(async () => {
+      await user.click(screen.getByTestId("test-button"));
+    });
+    await user.click(screen.getByTestId("test-input"));
+    await user.keyboard("1");
+    await act(async () => {
+      await user.click(screen.getByTestId("test-button"));
+    });
+
+    expect(screen.getByTestId("item-count").textContent).toEqual("2");
+  });
 });

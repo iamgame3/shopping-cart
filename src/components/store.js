@@ -44,6 +44,7 @@ function Store({ addItemsToCart }) {
       const productInteraction = document.createElement("div");
       productInteraction.classList.add("product-interaction");
       const quantityInput = document.createElement("input");
+      quantityInput.value = 0;
       quantityInput.type = "number";
       quantityInput.min = "0";
       quantityInput.max = "10";
