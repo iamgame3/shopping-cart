@@ -1,0 +1,16 @@
+/* eslint-disable react/jsx-filename-extension */
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import App from "./App";
+
+function RouteSwitch() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default RouteSwitch;
