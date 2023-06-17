@@ -1,8 +1,9 @@
 /* eslint-disable react/jsx-filename-extension */
 import { React } from "react";
+import Home from "./components/home";
 
 function App() {
-  return <div className="App">Sample Text</div>;
+  return <Home />;
 }
 
 export default App;
