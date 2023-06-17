@@ -36,7 +36,13 @@ function Store() {
       const productInteraction = document.createElement("div");
       productInteraction.classList.add("product-interaction");
       const addToCartButton = document.createElement("button");
+      addToCartButton.textContent = "Add to cart";
+      addToCartButton.classList.add("add-to-card-button");
       const quantityInput = document.createElement("input");
+      quantityInput.type = "number";
+      quantityInput.min = "0";
+      quantityInput.max = "10";
+      quantityInput.classList.add("quantity-input");
       productCaption.appendChild(productName);
       productCaption.appendChild(productPrice);
       productCard.appendChild(productCaption);
