@@ -2,6 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "./normalize.css";
 import RouteSwitch from "./routeSwitch";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
