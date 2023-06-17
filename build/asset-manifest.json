@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73dff6e1.css",
+    "main.js": "/static/js/main.938de0e6.js",
+    "static/media/nuke.jpg": "/static/media/nuke.1ea8b1ff5cbe5cc166ef.jpg",
+    "static/media/private-jet.jpg": "/static/media/private-jet.5ef3386286c4ed53a405.jpg",
+    "static/media/lamp.jpg": "/static/media/lamp.1ec4ecda7a774fa515c3.jpg",
+    "static/media/stone.jpg": "/static/media/stone.ec78118ffb2dcc417d1c.jpg",
+    "static/media/fighter-jet.jpg": "/static/media/fighter-jet.d3e1f8f4ef1c9ba89b3a.jpg",
+    "static/media/doomsday-device.jpg": "/static/media/doomsday-device.0d0d060013d464859901.jpg",
+    "static/media/laser-cannon.jpg": "/static/media/laser-cannon.27810903e4f72cfcac84.jpg",
+    "index.html": "/index.html",
+    "static/media/cart.svg": "/static/media/cart.61356b8ee12eb67b6900b35b86809179.svg",
+    "main.73dff6e1.css.map": "/static/css/main.73dff6e1.css.map",
+    "main.938de0e6.js.map": "/static/js/main.938de0e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73dff6e1.css",
+    "static/js/main.938de0e6.js"
+  ]
+}
